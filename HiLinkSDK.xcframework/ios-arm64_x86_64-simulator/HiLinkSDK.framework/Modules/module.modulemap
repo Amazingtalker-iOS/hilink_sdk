@@ -1,0 +1,11 @@
+framework module HiLinkSDK {
+  umbrella header "HiLinkSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module HiLinkSDK.Swift {
+  header "HiLinkSDK-Swift.h"
+  requires objc
+}
