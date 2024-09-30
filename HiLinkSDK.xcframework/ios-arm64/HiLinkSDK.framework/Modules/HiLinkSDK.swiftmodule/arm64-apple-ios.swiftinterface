@@ -26,6 +26,13 @@ public class BroadcastHandler {
 public struct ScreenShareInfo {
   public init(appGroupId: Swift.String, broadcastExtension: Swift.String)
 }
+@objc public class ShareScreenHandler : ObjectiveC.NSObject, WebKit.WKUIDelegate {
+  public init(screenShareInfo: HiLinkSDK.ScreenShareInfo?)
+  @objc deinit
+  public func initHinlinkSDK(webView: WebKit.WKWebView)
+  @objc public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
+  public func releaseResource()
+}
 @_hasMissingDesignatedInitializers public class Meeting : HiLinkSDK.BaseMeeting {
   public enum Status : Swift.String, Swift.Decodable {
     case unknown
@@ -48,7 +55,7 @@ public struct MeetingView : SwiftUI.UIViewControllerRepresentable {
   @_hasMissingDesignatedInitializers public class Coordinator {
     @objc deinit
   }
-  public init(meeting: HiLinkSDK.Meeting, joinUrl: Foundation.URL, screenShareInfo: HiLinkSDK.ScreenShareInfo?)
+  public init(joinUrl: Foundation.URL, screenShareInfo: HiLinkSDK.ScreenShareInfo?)
   @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: HiLinkSDK.MeetingView.Context) -> HiLinkSDK.MeetingViewController
   @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: HiLinkSDK.MeetingViewController, context: HiLinkSDK.MeetingView.Context)
   @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> HiLinkSDK.MeetingView.Coordinator
@@ -79,7 +86,7 @@ public class ApiClient {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MeetingViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public init(meeting: HiLinkSDK.Meeting, joinUrl: Foundation.URL, screenShareInfo: HiLinkSDK.ScreenShareInfo?)
+  @_Concurrency.MainActor(unsafe) public init(joinUrl: Foundation.URL, screenShareInfo: HiLinkSDK.ScreenShareInfo?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @objc deinit

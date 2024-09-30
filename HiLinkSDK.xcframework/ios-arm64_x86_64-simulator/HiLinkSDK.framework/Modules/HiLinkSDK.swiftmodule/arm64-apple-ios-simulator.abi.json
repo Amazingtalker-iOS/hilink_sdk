@@ -253,6 +253,248 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ShareScreenHandler",
+        "printedName": "ShareScreenHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(screenShareInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShareScreenHandler",
+                "printedName": "HiLinkSDK.ShareScreenHandler",
+                "usr": "c:@M@HiLinkSDK@objc(cs)ShareScreenHandler"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HiLinkSDK.ScreenShareInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenShareInfo",
+                    "printedName": "HiLinkSDK.ScreenShareInfo",
+                    "usr": "s:9HiLinkSDK15ScreenShareInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9HiLinkSDK18ShareScreenHandlerC06screenD4InfoAcA0edH0VSg_tcfc",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC06screenD4InfoAcA0edH0VSg_tcfc",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initHinlinkSDK",
+            "printedName": "initHinlinkSDK(webView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HiLinkSDK18ShareScreenHandlerC011initHinlinkC07webViewySo05WKWebJ0C_tF",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC011initHinlinkC07webViewySo05WKWebJ0C_tF",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:requestMediaCapturePermissionFor:initiatedByFrame:type:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKSecurityOrigin",
+                "printedName": "WebKit.WKSecurityOrigin",
+                "usr": "c:objc(cs)WKSecurityOrigin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKMediaCaptureType",
+                "printedName": "WebKit.WKMediaCaptureType",
+                "usr": "c:@E@WKMediaCaptureType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKPermissionDecision) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKPermissionDecision",
+                    "printedName": "WebKit.WKPermissionDecision",
+                    "usr": "c:@E@WKPermissionDecision"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HiLinkSDK@objc(cs)ShareScreenHandler(im)webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC7webView_32requestMediaCapturePermissionFor16initiatedByFrame4type08decisionF0ySo05WKWebH0C_So16WKSecurityOriginCSo11WKFrameInfoCSo07WKMediaK4TypeVySo20WKPermissionDecisionVctF",
+            "moduleName": "HiLinkSDK",
+            "objc_name": "webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseResource",
+            "printedName": "releaseResource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HiLinkSDK18ShareScreenHandlerC15releaseResourceyyF",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC15releaseResourceyyF",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShareScreenHandler",
+                "printedName": "HiLinkSDK.ShareScreenHandler",
+                "usr": "c:@M@HiLinkSDK@objc(cs)ShareScreenHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiLinkSDK@objc(cs)ShareScreenHandler(im)init",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerCACycfc",
+            "moduleName": "HiLinkSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HiLinkSDK@objc(cs)ShareScreenHandler",
+        "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC",
+        "moduleName": "HiLinkSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "AmazonChimeSDK",
         "printedName": "AmazonChimeSDK",
@@ -791,19 +1033,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(meeting:joinUrl:screenShareInfo:)",
+            "printedName": "init(joinUrl:screenShareInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "MeetingView",
                 "printedName": "HiLinkSDK.MeetingView",
                 "usr": "s:9HiLinkSDK11MeetingViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Meeting",
-                "printedName": "HiLinkSDK.Meeting",
-                "usr": "s:9HiLinkSDK7MeetingC"
               },
               {
                 "kind": "TypeNominal",
@@ -827,8 +1063,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9HiLinkSDK11MeetingViewV7meeting7joinUrl15screenShareInfoAcA0D0C_10Foundation3URLVAA06ScreenjK0VSgtcfc",
-            "mangledName": "$s9HiLinkSDK11MeetingViewV7meeting7joinUrl15screenShareInfoAcA0D0C_10Foundation3URLVAA06ScreenjK0VSgtcfc",
+            "usr": "s:9HiLinkSDK11MeetingViewV7joinUrl15screenShareInfoAC10Foundation3URLV_AA06ScreeniJ0VSgtcfc",
+            "mangledName": "$s9HiLinkSDK11MeetingViewV7joinUrl15screenShareInfoAC10Foundation3URLV_AA06ScreeniJ0VSgtcfc",
             "moduleName": "HiLinkSDK",
             "declAttributes": [
               "AccessControl"
@@ -1548,19 +1784,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(meeting:joinUrl:screenShareInfo:)",
+            "printedName": "init(joinUrl:screenShareInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "MeetingViewController",
                 "printedName": "HiLinkSDK.MeetingViewController",
                 "usr": "c:@M@HiLinkSDK@objc(cs)MeetingViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Meeting",
-                "printedName": "HiLinkSDK.Meeting",
-                "usr": "s:9HiLinkSDK7MeetingC"
               },
               {
                 "kind": "TypeNominal",
@@ -1584,8 +1814,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9HiLinkSDK21MeetingViewControllerC7meeting7joinUrl15screenShareInfoAcA0D0C_10Foundation3URLVAA06ScreenkL0VSgtcfc",
-            "mangledName": "$s9HiLinkSDK21MeetingViewControllerC7meeting7joinUrl15screenShareInfoAcA0D0C_10Foundation3URLVAA06ScreenkL0VSgtcfc",
+            "usr": "s:9HiLinkSDK21MeetingViewControllerC7joinUrl15screenShareInfoAC10Foundation3URLV_AA06ScreenjK0VSgtcfc",
+            "mangledName": "$s9HiLinkSDK21MeetingViewControllerC7joinUrl15screenShareInfoAC10Foundation3URLV_AA06ScreenjK0VSgtcfc",
             "moduleName": "HiLinkSDK",
             "declAttributes": [
               "Custom",
@@ -2421,23 +2651,23 @@
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/MeetingHandler.swift",
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/ShareScreenHandler.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 17,
       "value": "\"$HiLinkJsBridge\""
     },
     {
-      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/MeetingHandler.swift",
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/ShareScreenHandler.swift",
       "kind": "StringLiteral",
-      "offset": 876,
-      "length": 14,
-      "value": "\"HiLinkSDK.MeetingHandler\""
+      "offset": 883,
+      "length": 18,
+      "value": "\"HiLinkSDK.ShareScreenHandler\""
     },
     {
-      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/MeetingHandler.swift",
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/ShareScreenHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2981,
+      "offset": 3673,
       "length": 14,
       "value": "\"HiLinkSDK.MessageHandler\""
     },
