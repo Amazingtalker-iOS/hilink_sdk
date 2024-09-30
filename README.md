@@ -1,1 +1,1 @@
-# HiLink SDK for iOS
+# HiLink SDK
