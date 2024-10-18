@@ -32,6 +32,12 @@ public struct ScreenShareInfo {
   public func initHinlinkSDK(webView: WebKit.WKWebView)
   @objc public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping (WebKit.WKPermissionDecision) -> Swift.Void)
   public func releaseResource()
+  public func getLocaIframeUrl(url: Swift.String) -> Foundation.URL
+}
+public class HtmlHelper {
+  public init()
+  public func getLocaIframeUrl(url: Swift.String) -> Foundation.URL
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Meeting : HiLinkSDK.BaseMeeting {
   public enum Status : Swift.String, Swift.Decodable {
@@ -89,6 +95,7 @@ public class ApiClient {
   @_Concurrency.MainActor(unsafe) public init(joinUrl: Foundation.URL, screenShareInfo: HiLinkSDK.ScreenShareInfo?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class BaseMeeting : Swift.Decodable {

@@ -404,6 +404,33 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getLocaIframeUrl",
+            "printedName": "getLocaIframeUrl(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HiLinkSDK18ShareScreenHandlerC16getLocaIframeUrl3url10Foundation3URLVSS_tF",
+            "mangledName": "$s9HiLinkSDK18ShareScreenHandlerC16getLocaIframeUrl3url10Foundation3URLVSS_tF",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -503,10 +530,89 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HiLinkSDK"
+      },
+      {
+        "kind": "Import",
         "name": "ReplayKit",
         "printedName": "ReplayKit",
         "declKind": "Import",
         "moduleName": "HiLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HiLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HtmlHelper",
+        "printedName": "HtmlHelper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HtmlHelper",
+                "printedName": "HiLinkSDK.HtmlHelper",
+                "usr": "s:9HiLinkSDK10HtmlHelperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9HiLinkSDK10HtmlHelperCACycfc",
+            "mangledName": "$s9HiLinkSDK10HtmlHelperCACycfc",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getLocaIframeUrl",
+            "printedName": "getLocaIframeUrl(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HiLinkSDK10HtmlHelperC16getLocaIframeUrl3url10Foundation3URLVSS_tF",
+            "mangledName": "$s9HiLinkSDK10HtmlHelperC16getLocaIframeUrl3url10Foundation3URLVSS_tF",
+            "moduleName": "HiLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9HiLinkSDK10HtmlHelperC",
+        "mangledName": "$s9HiLinkSDK10HtmlHelperC",
+        "moduleName": "HiLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1777,6 +1883,13 @@
         "moduleName": "HiLinkSDK"
       },
       {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Live",
+        "printedName": "TXLiteAVSDK_Live",
+        "declKind": "Import",
+        "moduleName": "HiLinkSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MeetingViewController",
         "printedName": "MeetingViewController",
@@ -1873,6 +1986,38 @@
             "moduleName": "HiLinkSDK",
             "overriding": true,
             "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HiLinkSDK@objc(cs)MeetingViewController(im)viewDidDisappear:",
+            "mangledName": "$s9HiLinkSDK21MeetingViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "HiLinkSDK",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -2667,16 +2812,23 @@
     {
       "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/ShareScreenHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3673,
+      "offset": 3650,
       "length": 14,
       "value": "\"HiLinkSDK.MessageHandler\""
     },
     {
       "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/AwsBroadcastHandler.swift",
       "kind": "StringLiteral",
-      "offset": 167,
+      "offset": 181,
       "length": 21,
       "value": "\"AwsBroadcastHandler\""
+    },
+    {
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/HtmlHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 2327,
+      "value": "\"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>test iframe<\/title>\n  <script src=\"https:\/\/unpkg.com\/current-device\/umd\/current-device.min.js\"><\/script>\n  <style>\n    html, body {\n      width: 100%;\n      height: 100%;\n      padding: 0;\n      margin: 0;\n    }\n\n    .vcaas_classroom {\n      width: 100%;\n      height: 100%;\n      border: 0;\n      padding: 0;\n      margin: 0;\n    }\n  <\/style>\n  <script>\n    window.onload = () => {\n      \/** 接收消息子页面psg推送消息 *\/\n      const $HiLinkHandleReceiveMessage = (evt) => {\n        console.log('iframe-message====', evt)\n      }\n\n      \/** APP 挂载对象 *\/\n      const $HiLinkGetJsBridge = () => {\n        if (window?.webkit?.messageHandlers?.$HiLinkJsBridge) {\n          return window?.webkit?.messageHandlers?.$HiLinkJsBridge;\n        }\n        if (window?.webkit?.messageHandlers?.HiLinkJsBridge) {\n          return window?.webkit?.messageHandlers?.HiLinkJsBridge;\n        }\n        if (window.$HiLinkJsBridge) {\n          return window.$HiLinkJsBridge;\n        }\n        return null;\n      }\n\n      \/** 移动端标识 *\/\n      const $HiLinkIsMobileOrTablet = device.mobile() || device.tablet();\n\n      window.addEventListener('message', $HiLinkHandleReceiveMessage);\n\n      window.$HiLinkNativeSDKObserver = {\n        watch: (json) => {\n          debugger;\n          if ($HiLinkIsMobileOrTablet && !!$HiLinkGetJsBridge()) {\n            const iframe = document.getElementById('vcaas_classroom');\n            iframe?.contentWindow?.postMessage?.(JSON.stringify(json), '*');\n          }\n        }\n      }\n    }\n\n  <\/script>\n<\/head>\n<body>\n  <iframe\n    class=\"vcaas_classroom\"\n    id=\"vcaas_classroom\"\n    name=\"vcaas_classroom\"\n    allow=\"microphone;camera;midi;encrypted-media;display-capture;autoplay;fullscreen;geolocation;picture-in-picture;clipboard-read;clipboard-write\"\n    sandbox=\"allow-scripts allow-top-navigation allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms allow-modals allow-top-navigation-to-custom-protocols allow-downloads\"\n    referrerPolicy=\"no-referrer-when-downgrade\"\n    src=\"classroomSrc\"\n  \/>\n<\/body>\n<\/html>\n\""
     },
     {
       "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/Models\/Meeting.swift",
@@ -2772,7 +2924,14 @@
     {
       "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/MeetingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 104,
+      "offset": 2234,
+      "length": 18,
+      "value": "\"HiLinkSDK.MessageDemoHandler\""
+    },
+    {
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/MeetingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
       "length": 21,
       "value": "\"HiLinkSDK.MeetingViewController\""
     },
@@ -2796,6 +2955,13 @@
       "offset": 115,
       "length": 17,
       "value": "\"hilinkStartInfo\""
+    },
+    {
+      "filePath": "\/Users\/ethen.duan\/Documents\/workspace\/ios\/vcaas-ios-demo\/SDK\/Helpers\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 17,
+      "value": "\"flagScreenShare\""
     }
   ]
 }

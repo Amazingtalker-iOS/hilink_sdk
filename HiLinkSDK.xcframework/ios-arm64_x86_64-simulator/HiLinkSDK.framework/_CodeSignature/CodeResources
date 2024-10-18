@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HiLinkSDK-Swift.h</key>
 		<data>
-		5pcqJvzJXR8NEUt33jeecKuL36c=
+		EbavW5vmD5x3iIWzaxNHOgyGEBI=
 		</data>
 		<key>Headers/HiLinkSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dbuvykwTog8CraOg2+0Xknf4cpk=
+		vzDHNLESIZ6UP/rHbey0uSCBzws=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		72ABoA+nHWofh/XHLTezndip65o=
+		2izoz081J6cQED8txlE/Tlrhxsc=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		72ABoA+nHWofh/XHLTezndip65o=
+		2izoz081J6cQED8txlE/Tlrhxsc=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i3ENH6KDYzvQMACOMTHAI3ikGuw=
+		IFtTW6+BNI1bpepSmJVDT7x9TxE=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dbuvykwTog8CraOg2+0Xknf4cpk=
+		vzDHNLESIZ6UP/rHbey0uSCBzws=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jFQWCN2iDft+cC6SeNcHqbUYpZc=
+		jkhyOo6YZnNy11tOAR4H1LNlC9M=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jFQWCN2iDft+cC6SeNcHqbUYpZc=
+		jkhyOo6YZnNy11tOAR4H1LNlC9M=
 		</data>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RtOjlx9MUlB/zfWr9LqpGz89GRk=
+		e9JbSwQUFp/c2zTDI2ffK1le5Q8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Knvxgcd2eLV7DnrjDIchr/OxBFmuPYTwg5vf8wVWN9s=
+			sNHQlzOqGopIlJ4XyEsXhIRBRFxrNcTZxosr/dLgsrc=
 			</data>
 		</dict>
 		<key>Headers/HiLinkSDK.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+7Szto3Rjk0XeTqeAkGBnFXBb6Krk2El0/blQNpBGA=
+			SkRbKMJOcLrGq9Ptagsje0bR4z7ONIK8lVjNbLB6Owk=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			klg9OwjMhAliDZA7LOQTWgjnBGV7kxx2ptUvbqaAgXg=
+			FPS0bXvOTXrrETx4kHRxaldAunbKA4O8U7gMcpC6jzI=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			klg9OwjMhAliDZA7LOQTWgjnBGV7kxx2ptUvbqaAgXg=
+			FPS0bXvOTXrrETx4kHRxaldAunbKA4O8U7gMcpC6jzI=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AsrIZcsAgQg1F0GY0KTQtvG4K90BS8l1UWVET4g5P8g=
+			6zTIVl1kZSsV8XkIULNLBLzmAWvCy4Gj6KbhYukgaWM=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+7Szto3Rjk0XeTqeAkGBnFXBb6Krk2El0/blQNpBGA=
+			SkRbKMJOcLrGq9Ptagsje0bR4z7ONIK8lVjNbLB6Owk=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			frzMfPXJx5YyJn84uDbEKYaKgAo+cQGj6M+CfBKv+E8=
+			7YfEHaCyuOuVi2s+85j8LLBP8WDqQ1Y/5PFv/sjApZA=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			frzMfPXJx5YyJn84uDbEKYaKgAo+cQGj6M+CfBKv+E8=
+			7YfEHaCyuOuVi2s+85j8LLBP8WDqQ1Y/5PFv/sjApZA=
 			</data>
 		</dict>
 		<key>Modules/HiLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9SZcvyGe0KcyInNBeFVZFU8ZPfsgVWIY77sw/d5rgs=
+			LPsH6yhKjcLrpNLCLyYX16SCVcXtcRms3rqkVjiQB9U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
